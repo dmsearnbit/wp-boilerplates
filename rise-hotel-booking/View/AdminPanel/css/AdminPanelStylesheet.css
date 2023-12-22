@@ -1,0 +1,396 @@
+.rise_roomSettings label {
+    font-weight: bold;
+}
+
+.rise_roomSettings {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rise_roomSettings_row {
+    width: 100%;
+    display: flex;
+}
+
+@media only screen and (max-width: 1120px) {
+    .rise_roomSettings_row {
+        flex-direction: column;
+    }
+
+    .rise_coupon_field {
+        width: 100% !important;
+    }
+}
+
+.rise_roomSettings_label {
+    min-width: 25%;
+}
+
+.rise_roomSettings_input {
+    flex: 1
+}
+
+.pricing_plans_wrapper {
+    padding: 2rem 1rem;
+}
+
+select#rise_rooms {
+    width: 100%;
+}
+
+.rise-plan, .rise-closed-date {
+    background-color: #bbbbbb;
+    border-radius: .25rem;
+    padding: 1rem;
+    margin-top: 1.2rem;
+}
+
+.rise-plan-content input {
+    width: 100%;
+}
+
+.rise-plan-header {
+    display: flex;
+    width: 100%;
+}
+
+.rise-plan-title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-right: .7rem;
+}
+
+.rise-plan-line {
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin: .75rem 0;
+}
+
+.rise-other-plans-title {
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+}
+
+.rise-other-plans-title-container {
+    flex: 1;
+    display: flex;
+}
+
+.rise-plan-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    gap: 5px;
+}
+
+.rise-plan-content {
+    display: flex;
+}
+
+.rise-plan-currency {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 .5rem;
+    border: 1px solid #ddd;
+    background-color: white;
+    user-select: none;
+    border-radius: .2rem;
+}
+
+.rise-plans-submit, .rise-closed-dates-submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#rise-btn-submit {
+    margin-top: .5rem;
+}
+
+.rise-settings-tabs, .rise-payments-tabs {
+    border-collapse: collapse;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+
+.rise-payments-tabs {
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.rise-settings-tab, .rise-payments-tab {
+    padding: .1rem .7rem;
+    border: 1px solid black;
+    border-bottom: none;
+    color: black;
+}
+
+.rise-settings-tab:hover, .rise-payments-tab:hover {
+    background-color: #ccc;
+    text-decoration: none;
+    color: initial;
+}
+
+.rise-active {
+    background-color: #ddd;
+}
+
+.form-group select {
+    max-width: unset;
+    width: 100%;
+}
+
+.rise_meta_box_container {
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.rise_details_fields {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.rise_details_field {
+    flex: 1;
+    padding: 1rem;
+}
+
+.rise_book_id {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+.rise_book_id_alt {
+    font-size: .75rem;
+    color: rgb(108, 108, 108);
+    margin-bottom: 1rem;
+}
+
+.rise_field_group {
+    display: flex;
+    flex-direction: column;
+}
+
+.rise_address_field_name {
+    font-weight: 500;
+}
+
+.rise_address_field:not(:first-child) {
+    margin-top: .7rem;
+}
+
+#rise_details_edit, #rise_notes_edit {
+    display: none;
+    /* display should be flex when active */
+    flex-direction: row;
+}
+
+.rise_edit_field {
+    flex: 1;
+}
+
+.rise_edit_field select, .rise_edit_field input, .rise_edit_field .select2 {
+    width: 100% !important;
+}
+
+#rise_customer_country {
+    width: auto !important;
+}
+
+.rise_field_group textarea {
+    width: 100%;
+}
+
+.rise_edit_field select:not(:last-child),
+.rise_edit_field input:not(:last-child),
+.rise_edit_field textarea:not(:last-child) {
+    margin-bottom: .3rem;
+}
+
+.rise_field_edit {
+    border: none;
+    background: transparent;
+}
+
+#rise_room_item_modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.rise-modal-box {
+    background-color: white;
+    min-width: 55%;
+}
+
+@media only screen and (max-width: 960px) {
+    .rise-modal-box {
+        width: 80%;
+    }
+}
+
+.rise-modal-box-header {
+    display: flex;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.rise-modal-title, .rise-modal-box-body, .rise-modal-box-rates, .rise-modal-box-footer {
+    padding: 1rem;
+}
+
+.rise-modal-box-rates {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.rise-modal-box-plan {
+    display: flex;
+    gap: .25em;
+}
+
+.rise-modal-box-plan input[type="radio"] {
+    align-self: center;
+}
+
+.rise-modal-box-plan label {
+    display: flex;
+    flex-direction: column;
+}
+
+.rise-modal-box-plan .rise-modal-plan-price {
+    font-weight: bold;
+    margin-top: .25em;
+}
+
+.rise-modal-title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+    border-right: 1px solid rgb(220, 220, 220);
+}
+
+#rise_close_modal {
+    padding: 1rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.rise-modal-box-body {
+    display: flex;
+    gap: .7rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.rise-modal-box-content-field {
+    flex: 1;
+    min-width: 180px;
+}
+
+.rise-modal-box-content-field input, .rise-modal-box-content-field select {
+    width: 100%;
+}
+
+.rise-modal-box-header, .rise-modal-box-footer {
+    background-color: rgb(246, 246, 246);
+}
+
+.rise-modal-box-footer {
+    display: flex;
+    border-top: 1px solid rgb(220, 220, 220);
+}
+
+.rise_container td {
+    vertical-align: middle !important;
+}
+
+.rise_coupon_field {
+    margin: 1rem 0;
+    width: 50%;
+}
+
+.rise_coupon_field input:not([type=checkbox]) {
+    width: 100%;
+}
+
+#rise_booking_items_input {
+    display: none;
+    position: fixed;
+    top: -9999px;
+    left: -9999px;
+    width: 0;
+    height: 0;
+}
+
+.rise-booking-items-table-rates span {
+    display: block;
+}
+
+.rise-booking-items-table-rates span:not(:last-child) {
+    margin-bottom: .5rem;
+}
+
+div.rise-message.updated {
+    border-left-color: red;
+}
+
+.rise-closed-dates {
+    width: 100%;
+}
+
+.rise-settings-tabs button, .rise-payments-tabs button {
+    border-radius: 0;
+}
+
+.rise-active {
+    filter: brightness(1.5);
+}
+
+.rise-settings-title-container {
+    display: flex;
+}
+
+.rise-more-info {
+    margin-left: .5rem;
+    background-color: #0d66c2;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    cursor: help;
+    position: relative;
+}
+
+.rise-plan-rates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.rise-plan-rate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

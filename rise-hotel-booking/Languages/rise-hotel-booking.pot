@@ -1,0 +1,1329 @@
+# Copyright (C) 2022 Emre Danisan
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Rise Hotel Booking Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rise-hotel-booking\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-04-13T12:50:09+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: rise-hotel-booking\n"
+
+#. Plugin Name of the plugin
+msgid "Rise Hotel Booking Plugin"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.risehotelbooking.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Easy to use Hotel Reservation System for Wordpress"
+msgstr ""
+
+#. Author of the plugin
+msgid "Emre Danisan"
+msgstr ""
+
+#: Controller/ActivityLogController.php:18
+#: Controller/ActivityLogController.php:19
+msgid "Activity Log"
+msgstr ""
+
+#: Controller/BookingController.php:46
+msgid "Bookings"
+msgstr ""
+
+#: Controller/BookingController.php:47
+#: Controller/BookingController.php:250
+#: Repository/BookingRepository.php:225
+#: Repository/BookingRepository.php:292
+msgid "Booking"
+msgstr ""
+
+#: Controller/BookingController.php:66
+msgid "Check-in Date"
+msgstr ""
+
+#: Controller/BookingController.php:67
+msgid "Check-out Date"
+msgstr ""
+
+#: Controller/BookingController.php:68
+msgid "Booking Status"
+msgstr ""
+
+#: Controller/BookingController.php:69
+#: View/AdminPanel/BookingItemsMetaBox.php:175
+#: View/FrontEnd/BookingConfirmation.php:197
+#: View/FrontEnd/RoomCheckout.php:356
+msgid "Grand Total"
+msgstr ""
+
+#: Controller/BookingController.php:70
+#: View/AdminPanel/ActivityLog.php:18
+msgid "Date"
+msgstr ""
+
+#: Controller/BookingController.php:89
+#: Controller/BookingController.php:97
+msgid "Multiple Rooms"
+msgstr ""
+
+#: Controller/BookingController.php:125
+msgid "Booking Information"
+msgstr ""
+
+#: Controller/BookingController.php:134
+msgid "Booking Items"
+msgstr ""
+
+#: Controller/BookingController.php:384
+msgid "Coupon not found."
+msgstr ""
+
+#: Controller/BookingController.php:418
+msgid "Coupon is expired or not activated yet."
+msgstr ""
+
+#: Controller/BookingController.php:427
+msgid "Coupon usage limit has been reached."
+msgstr ""
+
+#: Controller/BookingController.php:695
+msgid "Booking was completed, but some or all of the e-mails were unsuccessful to be sent."
+msgstr ""
+
+#: Controller/BookingController.php:698
+msgid "Mail Unsuccessful"
+msgstr ""
+
+#: Controller/BookingController.php:703
+msgid "Booking Completed"
+msgstr ""
+
+#: Controller/BookingController.php:703
+msgid "Booking was completed successfully."
+msgstr ""
+
+#: Controller/BookingController.php:707
+msgid "Booking Failed"
+msgstr ""
+
+#: Controller/BookingController.php:708
+msgid "A booking was not completed successfully."
+msgstr ""
+
+#: Controller/CloseRoomsController.php:18
+#: Controller/CloseRoomsController.php:19
+msgid "Close Rooms"
+msgstr ""
+
+#: Controller/CouponController.php:30
+#: Controller/CouponController.php:41
+msgid "Coupon Codes"
+msgstr ""
+
+#: Controller/CouponController.php:31
+msgid "Coupon Code"
+msgstr ""
+
+#: Controller/CouponController.php:32
+#: Controller/CouponController.php:33
+msgid "Add New Code"
+msgstr ""
+
+#: Controller/CouponController.php:34
+msgid "Edit Code"
+msgstr ""
+
+#: Controller/CouponController.php:35
+msgid "New Code"
+msgstr ""
+
+#: Controller/CouponController.php:36
+msgid "View Code"
+msgstr ""
+
+#: Controller/CouponController.php:37
+msgid "View Codes"
+msgstr ""
+
+#: Controller/CouponController.php:38
+msgid "Search Codes"
+msgstr ""
+
+#: Controller/CouponController.php:39
+msgid "No codes found"
+msgstr ""
+
+#: Controller/CouponController.php:40
+msgid "No codes found in Trash"
+msgstr ""
+
+#: Controller/CouponController.php:61
+msgid "Coupon Information"
+msgstr ""
+
+#: Controller/CouponController.php:172
+msgid "New coupon created"
+msgstr ""
+
+#: Controller/CouponController.php:173
+msgid "Coupon code: %s"
+msgstr ""
+
+#: Controller/CouponController.php:178
+msgid "Coupon updated"
+msgstr ""
+
+#: Controller/CouponController.php:201
+msgid "Coupon deleted"
+msgstr ""
+
+#: Controller/CouponController.php:202
+msgid "Coupon %s has been deleted"
+msgstr ""
+
+#: Controller/CustomRatesController.php:45
+#: Controller/CustomRatesController.php:56
+msgid "Custom Rates"
+msgstr ""
+
+#: Controller/CustomRatesController.php:46
+msgid "Custom Rate"
+msgstr ""
+
+#: Controller/CustomRatesController.php:47
+#: Controller/CustomRatesController.php:48
+msgid "Add New Custom Rate"
+msgstr ""
+
+#: Controller/CustomRatesController.php:49
+msgid "Edit Custom Rate"
+msgstr ""
+
+#: Controller/CustomRatesController.php:50
+msgid "New Custom Rate"
+msgstr ""
+
+#: Controller/CustomRatesController.php:51
+msgid "View Custom Rate"
+msgstr ""
+
+#: Controller/CustomRatesController.php:52
+msgid "View Custom Rates"
+msgstr ""
+
+#: Controller/CustomRatesController.php:53
+msgid "Search Custom Rates"
+msgstr ""
+
+#: Controller/CustomRatesController.php:54
+msgid "No custom rates found"
+msgstr ""
+
+#: Controller/CustomRatesController.php:55
+msgid "No custom rates found in Trash"
+msgstr ""
+
+#: Controller/MailController.php:139
+msgid "You Received a Booking"
+msgstr ""
+
+#: Controller/MailController.php:143
+msgid "Booking Successful"
+msgstr ""
+
+#: Controller/PaymentController.php:64
+msgid "Payment unsuccessful, please choose another payment method."
+msgstr ""
+
+#: Controller/PaymentController.php:251
+msgid "Hotel Rooms"
+msgstr ""
+
+#: Controller/PricingPlansController.php:18
+#: Controller/PricingPlansController.php:19
+msgid "Pricing Plans"
+msgstr ""
+
+#: Controller/RoomController.php:43
+msgid "Rise Hotel Booking"
+msgstr ""
+
+#: Controller/RoomController.php:44
+#: View/FrontEnd/RoomSearchResults.php:64
+msgid "Room"
+msgstr ""
+
+#: Controller/RoomController.php:45
+#: Controller/RoomController.php:46
+msgid "Add New Room"
+msgstr ""
+
+#: Controller/RoomController.php:47
+msgid "Edit Room"
+msgstr ""
+
+#: Controller/RoomController.php:48
+msgid "New Room"
+msgstr ""
+
+#: Controller/RoomController.php:49
+msgid "View Room"
+msgstr ""
+
+#: Controller/RoomController.php:50
+msgid "View Rooms"
+msgstr ""
+
+#: Controller/RoomController.php:51
+msgid "Search Rooms"
+msgstr ""
+
+#: Controller/RoomController.php:52
+msgid "No Rooms found"
+msgstr ""
+
+#: Controller/RoomController.php:53
+msgid "No rooms found in Trash"
+msgstr ""
+
+#: Controller/RoomController.php:54
+msgid "Rooms"
+msgstr ""
+
+#: Controller/RoomController.php:79
+msgid "Room Settings"
+msgstr ""
+
+#: Controller/RoomController.php:127
+msgid "New room created"
+msgstr ""
+
+#: Controller/RoomController.php:132
+msgid "Room updated"
+msgstr ""
+
+#: Controller/RoomController.php:160
+msgid "Room deleted"
+msgstr ""
+
+#: Controller/RoomController.php:186
+#: Controller/RoomTypeController.php:52
+msgid "Room Type"
+msgstr ""
+
+#: Controller/RoomController.php:205
+msgid "Unable to get type(s)."
+msgstr ""
+
+#: Controller/RoomTypeController.php:34
+#: Controller/RoomTypeController.php:36
+#: Controller/RoomTypeController.php:51
+msgid "Room Types"
+msgstr ""
+
+#: Controller/RoomTypeController.php:37
+msgid "All Room Types"
+msgstr ""
+
+#: Controller/RoomTypeController.php:38
+msgid "Edit Room Type"
+msgstr ""
+
+#: Controller/RoomTypeController.php:39
+msgid "View Room Type"
+msgstr ""
+
+#: Controller/RoomTypeController.php:40
+msgid "Update Room Type"
+msgstr ""
+
+#: Controller/RoomTypeController.php:41
+msgid "Add new Room Type"
+msgstr ""
+
+#: Controller/RoomTypeController.php:42
+msgid "New Room Type"
+msgstr ""
+
+#: Controller/RoomTypeController.php:43
+#: Controller/RoomTypeController.php:44
+msgid "Parent Room Type"
+msgstr ""
+
+#: Controller/RoomTypeController.php:45
+msgid "Search Room Types"
+msgstr ""
+
+#: Controller/RoomTypeController.php:46
+msgid "Popular Room Types"
+msgstr ""
+
+#: Controller/RoomTypeController.php:47
+msgid "Separate Room Types with commas"
+msgstr ""
+
+#: Controller/RoomTypeController.php:48
+msgid "Add or remove Room Types"
+msgstr ""
+
+#: Controller/RoomTypeController.php:49
+msgid "Choose most used Room Types"
+msgstr ""
+
+#: Controller/RoomTypeController.php:50
+msgid "No Room Types found"
+msgstr ""
+
+#: Controller/RoomTypeController.php:80
+#: Controller/RoomTypeController.php:96
+msgid "Room Capacity"
+msgstr ""
+
+#: Controller/RoomTypeController.php:127
+msgid "Capacity"
+msgstr ""
+
+#: Controller/SettingsController.php:19
+#: Controller/SettingsController.php:20
+msgid "Settings"
+msgstr ""
+
+#: Controller/Shortcode/RoomCheckoutShortcode.php:128
+msgid "Please search a room first."
+msgstr ""
+
+#: Repository/CloseRoomsRepository.php:103
+msgid "Room closed"
+msgstr ""
+
+#: Repository/CloseRoomsRepository.php:104
+msgid "Room ID"
+msgstr ""
+
+#: Repository/PricingPlansRepository.php:310
+msgid "Pricing plan added"
+msgstr ""
+
+#: Repository/PricingPlansRepository.php:313
+msgid "Regular pricing plan added for the room %s with the price of %s"
+msgstr ""
+
+#: Repository/PricingPlansRepository.php:319
+msgid "Pricing plan added for the room %s for the dates %s - %s with the price of %s"
+msgstr ""
+
+#: Repository/PricingPlansRepository.php:377
+msgid "Pricing plan updated"
+msgstr ""
+
+#: Repository/PricingPlansRepository.php:380
+msgid "Regular pricing plan for the room %s updated."
+msgstr ""
+
+#: Repository/PricingPlansRepository.php:386
+msgid "Pricing plan for the room %s updated: %s - %s, with the price %s"
+msgstr ""
+
+#: Repository/PricingPlansRepository.php:427
+msgid "Pricing plan deleted"
+msgstr ""
+
+#: Repository/PricingPlansRepository.php:429
+msgid "Pricing plan deleted for the room %s"
+msgstr ""
+
+#: Repository/RoomRepository.php:40
+msgid "Error"
+msgstr ""
+
+#: Repository/RoomRepository.php:42
+msgid "Price for the room id: %d for the dates between %s and  was requested but not found."
+msgstr ""
+
+#: rise-hotel-booking.php:233
+msgid "RISE Hotel Booking Warning"
+msgstr ""
+
+#: rise-hotel-booking.php:234
+msgid "It is suggested to use a valid SSL certificate & redirect all the traffic through HTTPS for optimal performance and security."
+msgstr ""
+
+#: View/AdminPanel/ActivityLog.php:15
+msgid "ID"
+msgstr ""
+
+#: View/AdminPanel/ActivityLog.php:16
+msgid "Activity Type"
+msgstr ""
+
+#: View/AdminPanel/ActivityLog.php:17
+msgid "Details"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:22
+msgid "Book ID"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:23
+msgid "Booked on %s"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:27
+#: View/AdminPanel/Settings.php:69
+msgid "General"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:30
+msgid "Payment Method:"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:46
+msgid "Booking Status:"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:66
+msgid "Coupon code <b>%s</b> is used in this booking."
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:75
+msgid "Customer's Details"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:82
+msgid "Name"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:86
+#: View/AdminPanel/BookingInformationMetaBox.php:125
+#: View/FrontEnd/BookingConfirmation.php:35
+#: View/FrontEnd/BookingConfirmation.php:90
+#: View/FrontEnd/RoomCheckout.php:450
+#: View/FrontEnd/RoomCheckout.php:455
+msgid "Address"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:90
+#: View/AdminPanel/Settings.php:336
+#: View/AdminPanel/Settings.php:343
+msgid "Email"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:94
+#: View/AdminPanel/BookingInformationMetaBox.php:146
+#: View/FrontEnd/BookingConfirmation.php:98
+#: View/FrontEnd/RoomCheckout.php:506
+msgid "Phone"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:101
+msgid "Name Prefix"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:115
+#: View/FrontEnd/RoomCheckout.php:432
+#: View/FrontEnd/RoomCheckout.php:437
+msgid "First name"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:120
+#: View/FrontEnd/RoomCheckout.php:441
+#: View/FrontEnd/RoomCheckout.php:446
+msgid "Last name"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:128
+#: View/AdminPanel/Settings.php:274
+#: View/AdminPanel/Settings.php:282
+#: View/FrontEnd/RoomCheckout.php:460
+#: View/FrontEnd/RoomCheckout.php:465
+msgid "City"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:134
+#: View/AdminPanel/Settings.php:287
+#: View/AdminPanel/Settings.php:294
+#: View/FrontEnd/RoomCheckout.php:471
+#: View/FrontEnd/RoomCheckout.php:476
+msgid "State / Province"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:138
+#: View/FrontEnd/RoomCheckout.php:486
+msgid "Postal code"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:142
+msgid "Email address"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:150
+#: View/AdminPanel/Settings.php:300
+#: View/AdminPanel/Settings.php:307
+#: View/FrontEnd/RoomCheckout.php:490
+msgid "Country"
+msgstr ""
+
+#: View/AdminPanel/BookingInformationMetaBox.php:169
+#: View/AdminPanel/BookingInformationMetaBox.php:179
+msgid "Customer's Notes"
+msgstr ""
+
+#: View/AdminPanel/BookingItemsMetaBox.php:17
+msgid "Add new item"
+msgstr ""
+
+#: View/AdminPanel/BookingItemsMetaBox.php:28
+msgid "Select room"
+msgstr ""
+
+#: View/AdminPanel/BookingItemsMetaBox.php:37
+#: View/AdminPanel/BookingItemsMetaBox.php:90
+msgid "Check-in & Check-out"
+msgstr ""
+
+#: View/AdminPanel/BookingItemsMetaBox.php:48
+#: View/FrontEnd/RoomSearch.php:48
+msgid "Check Availability"
+msgstr ""
+
+#: View/AdminPanel/BookingItemsMetaBox.php:52
+msgid "Add/Save"
+msgstr ""
+
+#: View/AdminPanel/BookingItemsMetaBox.php:89
+msgid "Item"
+msgstr ""
+
+#: View/AdminPanel/BookingItemsMetaBox.php:91
+#: View/FrontEnd/BookingConfirmation.php:131
+#: View/FrontEnd/RoomCheckout.php:174
+msgid "Night"
+msgstr ""
+
+#: View/AdminPanel/BookingItemsMetaBox.php:92
+msgid "Qty"
+msgstr ""
+
+#: View/AdminPanel/BookingItemsMetaBox.php:93
+#: View/FrontEnd/BookingConfirmation.php:128
+#: View/FrontEnd/RoomCheckout.php:171
+#: View/FrontEnd/RoomSearchResults.php:70
+msgid "Includes"
+msgstr ""
+
+#: View/AdminPanel/BookingItemsMetaBox.php:94
+msgid "Total"
+msgstr ""
+
+#: View/AdminPanel/BookingItemsMetaBox.php:95
+#: View/FrontEnd/RoomCheckout.php:176
+msgid "Actions"
+msgstr ""
+
+#: View/AdminPanel/BookingItemsMetaBox.php:114
+#: View/FrontEnd/BookingConfirmation.php:153
+#: View/FrontEnd/RoomCheckout.php:240
+#: View/FrontEnd/RoomSearchResults.php:122
+#: View/FrontEnd/RoomSearchResults.php:161
+msgid "Regular"
+msgstr ""
+
+#: View/AdminPanel/BookingItemsMetaBox.php:148
+msgid "Add Room Item"
+msgstr ""
+
+#: View/AdminPanel/BookingItemsMetaBox.php:159
+#: View/FrontEnd/BookingConfirmation.php:185
+#: View/FrontEnd/RoomCheckout.php:340
+msgid "Sub Total"
+msgstr ""
+
+#: View/AdminPanel/BookingItemsMetaBox.php:167
+#: View/AdminPanel/Settings.php:117
+#: View/FrontEnd/BookingConfirmation.php:191
+#: View/FrontEnd/RoomCheckout.php:349
+msgid "Tax"
+msgstr ""
+
+#: View/AdminPanel/BookingItemsMetaBox.php:183
+msgid "Advance Payment"
+msgstr ""
+
+#: View/AdminPanel/CloseRooms.php:42
+#: View/AdminPanel/PricingPlans.php:102
+msgid "Select a room"
+msgstr ""
+
+#: View/AdminPanel/CloseRooms.php:60
+msgid "Add new date"
+msgstr ""
+
+#: View/AdminPanel/CloseRooms.php:67
+msgid "No dates added."
+msgstr ""
+
+#: View/AdminPanel/CloseRooms.php:92
+#: View/AdminPanel/PricingPlans.php:278
+#: View/AdminPanel/Settings.php:643
+msgid "Apply Changes"
+msgstr ""
+
+#: View/AdminPanel/CouponInformationMetaBox.php:5
+msgid "Coupon code"
+msgstr ""
+
+#: View/AdminPanel/CouponInformationMetaBox.php:8
+msgid "The coupon code to be used at checkout."
+msgstr ""
+
+#: View/AdminPanel/CouponInformationMetaBox.php:18
+msgid "Discount percentage (without \"%\" sign)"
+msgstr ""
+
+#: View/AdminPanel/CouponInformationMetaBox.php:21
+msgid "The discount percentage to be applied to the total price of the booking."
+msgstr ""
+
+#: View/AdminPanel/CouponInformationMetaBox.php:31
+#: View/AdminPanel/CouponInformationMetaBox.php:39
+msgid "Utilization dates"
+msgstr ""
+
+#: View/AdminPanel/CouponInformationMetaBox.php:34
+msgid "The dates when the coupon can be used."
+msgstr ""
+
+#: View/AdminPanel/CouponInformationMetaBox.php:48
+msgid "Utilization dates are the same as reservation dates"
+msgstr ""
+
+#: View/AdminPanel/CouponInformationMetaBox.php:51
+msgid "If checked, the utilization dates will be set as the same as the reservation dates. Any change made to utilization dates will change reservation dates too, and any change made to reservation dates will change utilization dates too."
+msgstr ""
+
+#: View/AdminPanel/CouponInformationMetaBox.php:59
+#: View/AdminPanel/CouponInformationMetaBox.php:67
+msgid "Reservation dates"
+msgstr ""
+
+#: View/AdminPanel/CouponInformationMetaBox.php:62
+msgid "The reservation dates between which the coupon will be valid."
+msgstr ""
+
+#: View/AdminPanel/CouponInformationMetaBox.php:73
+#: View/AdminPanel/CouponInformationMetaBox.php:81
+msgid "Quantity (-1 for unlimited)"
+msgstr ""
+
+#: View/AdminPanel/CouponInformationMetaBox.php:76
+msgid "The amount of bookings that the coupon is valid for."
+msgstr ""
+
+#: View/AdminPanel/PricingPlans.php:43
+#: View/AdminPanel/PricingPlans.php:222
+msgid "Dates: "
+msgstr ""
+
+#: View/AdminPanel/PricingPlans.php:46
+msgid "No date"
+msgstr ""
+
+#: View/AdminPanel/PricingPlans.php:57
+#: View/AdminPanel/PricingPlans.php:140
+#: View/AdminPanel/PricingPlans.php:239
+msgid "Nightly price"
+msgstr ""
+
+#: View/AdminPanel/PricingPlans.php:125
+msgid "Regular Price"
+msgstr ""
+
+#: View/AdminPanel/PricingPlans.php:127
+msgid "This price will be valid for the dates when no other plans are set."
+msgstr ""
+
+#: View/AdminPanel/PricingPlans.php:177
+msgid "Other plans"
+msgstr ""
+
+#: View/AdminPanel/PricingPlans.php:179
+msgid "Each plan has its own dates and price. The price is valid for the dates set on the plan."
+msgstr ""
+
+#: View/AdminPanel/PricingPlans.php:284
+msgid "Room not found"
+msgstr ""
+
+#: View/AdminPanel/RoomSettingsMetaBox.php:4
+#: View/FrontEnd/BookingConfirmation.php:127
+#: View/FrontEnd/RoomCheckout.php:170
+#: View/FrontEnd/RoomSearch.php:39
+#: View/FrontEnd/RoomSearch.php:41
+msgid "Quantity"
+msgstr ""
+
+#: View/AdminPanel/RoomSettingsMetaBox.php:13
+msgid "Number of adults"
+msgstr ""
+
+#: View/AdminPanel/RoomSettingsMetaBox.php:22
+msgid "Short Description"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:71
+msgid "Hotel Info"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:73
+msgid "Payments"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:74
+msgid "Mail"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:90
+msgid "Currency"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:92
+msgid "Website currency. All the payments will be made in the currency you select here."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:110
+msgid "Tax Percentage (if not included)"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:112
+msgid "This will be included in grand total and advance payment prices."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:122
+#: View/AdminPanel/Settings.php:129
+msgid "Advance Payment Percentage"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:124
+msgid "This is the percentage of grand total price that the customers will pay. Leave this at 100 if you want the users to make all the payment at the time of reservation."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:134
+msgid "Room Search Results Page"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:136
+msgid "This is the page where the search results will be displayed. Check tutorials on the official Rise Hotel Booking website to see how to create a search results page."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:154
+msgid "Room Checkout Page"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:156
+msgid "This is the page where the checkout form will be displayed. Check tutorials on the official Rise Hotel Booking website to see how to create a checkout page."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:174
+msgid "Terms and Conditions Page"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:176
+msgid "This is the page where the terms and conditions will be displayed. Check tutorials on the official Rise Hotel Booking website to see how to create a terms and conditions page."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:194
+msgid "Allow editing existing booking items?"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:196
+msgid "If you enable this option, website administrators will be able to add and remove new rooms to an existing bookings from the Bookings page in the dashboard."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:201
+msgid "Allow editing bookings?"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:207
+#: View/AdminPanel/Settings.php:214
+msgid "Delete all data when plugin is removed?"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:209
+msgid "If you enable this option, all data that belongs to the plugin (such as rooms, bookings, settings etc.) will be deleted when plugin is uninstalled."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:222
+msgid "Show \"Booking Engine Powered by Rise\" link in footer and checkout?"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:229
+msgid "If you enable this option, the Booking engine powered by Rise link will be displayed in the footer of the website and in the checkout page."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:234
+msgid "Show 'Powered by Rise' link in footer and checkout?"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:249
+#: View/AdminPanel/Settings.php:256
+#: View/FrontEnd/BookingConfirmation.php:81
+msgid "Hotel Name"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:251
+msgid "Name of the hotel."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:261
+#: View/AdminPanel/Settings.php:269
+msgid "Hotel Address"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:263
+msgid "Address of the hotel."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:276
+msgid "City the hotel is located at."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:289
+msgid "State / Province the hotel is located at."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:302
+msgid "Country the hotel is located at."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:312
+#: View/AdminPanel/Settings.php:319
+msgid "Zip Code"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:314
+msgid "Zip Code of the region hotel is located at."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:324
+#: View/AdminPanel/Settings.php:331
+#: View/FrontEnd/BookingConfirmation.php:41
+#: View/FrontEnd/RoomCheckout.php:511
+msgid "Phone Number"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:326
+msgid "Phone number of the hotel."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:338
+msgid "Email of the hotel."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:357
+msgid "Offline"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:359
+msgid "Pay on Arrival"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:369
+msgid "Enable offline payments?"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:371
+msgid "When enabled, customers will be able to complete bookings without making a payment online. The booking will be added with pending status, and customer will make the payment according to the instructions you provided below."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:376
+msgid "Enable-offline-payments?"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:382
+#: View/AdminPanel/Settings.php:390
+msgid "Offline Payment Instructions"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:384
+msgid "Instructions for offline payments. This will be displayed on the checkout page."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:399
+#: View/AdminPanel/Settings.php:406
+msgid "Enable Pay on Arrival?"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:401
+msgid "When enabled, customers will be able to complete bookings without making a payment online. The booking will be added with pending status, and the customer will make the payment at the check-in date when they arrive at the hotel."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:412
+#: View/AdminPanel/Settings.php:420
+msgid "Pay on Arrival Instructions"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:414
+msgid "Instructions for Pay on Arrival payments. This will be displayed on the checkout page."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:429
+#: View/AdminPanel/Settings.php:436
+msgid "Enable PayPal payments?"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:431
+msgid "Enable this to allow customers to make payments using PayPal."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:442
+#: View/AdminPanel/Settings.php:450
+msgid "PayPal Payment Instructions"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:444
+msgid "Instructions for PayPal payments. This will be displayed on the checkout page."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:459
+#: View/AdminPanel/Settings.php:466
+msgid "Enable Stripe payments?"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:461
+msgid "Enable this to allow customers to make payments using Stripe."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:472
+#: View/AdminPanel/Settings.php:479
+msgid "Stripe Secret Key"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:474
+msgid "Stripe Secret Key. This is required to make Stripe payments. For more information, visit tutorials page on Rise Hotel Booking website."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:485
+#: View/AdminPanel/Settings.php:493
+msgid "Stripe Payment Instructions"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:487
+msgid "Instructions for Stripe payments. This will be displayed on the checkout page."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:502
+#: View/AdminPanel/Settings.php:509
+msgid "Enable Iyzico payments?"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:504
+msgid "Enable this to allow customers to make payments using Iyzico."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:514
+msgid "Warning!"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:517
+msgid "When enabled, Iyzico logo band will be shown in the footer and at the checkout page."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:529
+msgid "Error!"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:532
+msgid "Your site currency is not supported by Iyzico. Supported currencies are: "
+msgstr ""
+
+#: View/AdminPanel/Settings.php:545
+#: View/AdminPanel/Settings.php:552
+msgid "Iyzico API Key"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:547
+msgid "Iyzico API Key. This is required for Iyzico payments. For more information, visit tutorials page on Rise Hotel Booking website"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:558
+#: View/AdminPanel/Settings.php:565
+msgid "Iyzico Secret Key"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:560
+msgid "Iyzico Secret Key. This is required for Iyzico payments. For more information, visit tutorials page on Rise Hotel Booking website"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:571
+#: View/AdminPanel/Settings.php:578
+msgid "Enable test mode?"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:573
+msgid "This is just for test purposes. When enabled, you will not receive any payments and customers will be able create bookings without making any payments. Use with caution, never enable this on a live website."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:584
+#: View/AdminPanel/Settings.php:592
+msgid "Iyzico Payment Instructions"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:586
+msgid "Instructions for Iyzico payments. This will be displayed on the checkout page."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:609
+msgid "Enable sending mails"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:611
+msgid "When enabled, booking confirmation mails will be sent to customers, and the mail addresses entered below."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:624
+msgid "Email address(es) to receive notifications (one address per line)"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:631
+msgid "Enter the email addresses you want to receive notifications when a booking is made. You can enter multiple email addresses, one address per line."
+msgstr ""
+
+#: View/AdminPanel/Settings.php:637
+msgid "Email address(es) to receive notifications"
+msgstr ""
+
+#: View/FrontEnd/BookingConfirmation.php:20
+msgid "Booking Confirmation"
+msgstr ""
+
+#: View/FrontEnd/BookingConfirmation.php:24
+msgid "Book Information:"
+msgstr ""
+
+#: View/FrontEnd/BookingConfirmation.php:27
+msgid "Full Name"
+msgstr ""
+
+#: View/FrontEnd/BookingConfirmation.php:48
+#: View/FrontEnd/RoomCheckout.php:520
+msgid "E-mail Address"
+msgstr ""
+
+#: View/FrontEnd/BookingConfirmation.php:56
+#: View/FrontEnd/RoomCheckout.php:529
+msgid "Payment Method"
+msgstr ""
+
+#: View/FrontEnd/BookingConfirmation.php:67
+msgid "Coupon code %s is included in this booking."
+msgstr ""
+
+#: View/FrontEnd/BookingConfirmation.php:78
+msgid "Hotel Information"
+msgstr ""
+
+#: View/FrontEnd/BookingConfirmation.php:106
+#: View/FrontEnd/RoomCheckout.php:397
+#: View/FrontEnd/RoomCheckout.php:515
+msgid "E-mail"
+msgstr ""
+
+#: View/FrontEnd/BookingConfirmation.php:119
+msgid "Booked Room(s)"
+msgstr ""
+
+#: View/FrontEnd/BookingConfirmation.php:125
+#: View/FrontEnd/RoomCheckout.php:168
+msgid "Room type"
+msgstr ""
+
+#: View/FrontEnd/BookingConfirmation.php:126
+#: View/FrontEnd/RoomCheckout.php:169
+#: View/FrontEnd/RoomSearch.php:31
+#: View/FrontEnd/RoomSearch.php:33
+msgid "Number of People"
+msgstr ""
+
+#: View/FrontEnd/BookingConfirmation.php:129
+#: View/FrontEnd/RoomCheckout.php:172
+msgid "Check-in"
+msgstr ""
+
+#: View/FrontEnd/BookingConfirmation.php:130
+#: View/FrontEnd/RoomCheckout.php:173
+msgid "Check-out"
+msgstr ""
+
+#: View/FrontEnd/BookingConfirmation.php:132
+#: View/FrontEnd/RoomCheckout.php:175
+msgid "Gross Total"
+msgstr ""
+
+#: View/FrontEnd/BookingConfirmation.php:205
+#: View/FrontEnd/RoomCheckout.php:367
+msgid "Advance Payment (%s of Grand Total)"
+msgstr ""
+
+#: View/FrontEnd/BookingConfirmation.php:223
+msgid "Payment Instructions"
+msgstr ""
+
+#: View/FrontEnd/Footer.php:10
+#: View/FrontEnd/RoomCheckout.php:384
+msgid "Booking engine powered by Rise"
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:113
+#: View/FrontEnd/RoomCompleteCheckout.php:43
+#: View/FrontEnd/RoomCompleteCheckout.php:84
+msgid "An unexpected error occurred."
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:122
+msgid "Payment is not completed."
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:163
+msgid "Book Room"
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:314
+msgid "Coupon <b class=\"rise-checkout-applied-coupon\">%s</b> has been applied."
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:316
+msgid "Remove coupon?"
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:320
+msgid "Coupon"
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:328
+msgid "Apply Coupon"
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:392
+msgid "Billing Details"
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:394
+msgid "Existing customer?"
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:401
+msgid "Your e-mail here"
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:405
+msgid "Apply"
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:413
+msgid "New customer"
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:418
+msgid "Title"
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:422
+msgid "Select title"
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:481
+msgid "Postal Code"
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:496
+msgid "Select country"
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:568
+msgid "No payment methods available."
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:575
+msgid "Additional Information"
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:589
+msgid "I agree with <a href=\"%s\" target=\"_blank\">Terms and Conditions</a>"
+msgstr ""
+
+#: View/FrontEnd/RoomCheckout.php:597
+msgid "Check out"
+msgstr ""
+
+#: View/FrontEnd/RoomCompleteCheckout.php:13
+msgid "You must agree with terms and conditions to continue booking."
+msgstr ""
+
+#: View/FrontEnd/RoomCompleteCheckout.php:29
+msgid "You must fill all the required fields to continue booking"
+msgstr ""
+
+#: View/FrontEnd/RoomCompleteCheckout.php:36
+msgid "Invalid e-mail."
+msgstr ""
+
+#: View/FrontEnd/RoomCompleteCheckout.php:57
+msgid "One of the rooms in the booking was not available between your check-in and check-out dates. Booking unsuccessful."
+msgstr ""
+
+#: View/FrontEnd/RoomSearch.php:21
+msgid "Arrival & Departure Date"
+msgstr ""
+
+#: View/FrontEnd/RoomSearch.php:23
+msgid "Check-in & Check-out Date"
+msgstr ""
+
+#: View/FrontEnd/RoomSearchResults.php:31
+msgid "Please fill all fields before searching a room."
+msgstr ""
+
+#: View/FrontEnd/RoomSearchResults.php:67
+msgid "Price"
+msgstr ""
+
+#: View/FrontEnd/RoomSearchResults.php:131
+#: View/FrontEnd/RoomSearchResults.php:170
+msgid "Book this room"
+msgstr ""
+
+#: View/FrontEnd/RoomSearchResults.php:190
+msgid "There are no rooms available for the selected dates, number of people and quantity."
+msgstr ""
+
+#: View/AdminPanel/js/AdminPanel.js:444
+msgid "CLOSED"
+msgstr ""
+
+#: View/AdminPanel/js/AdminPanel.js:747
+#: View/AdminPanel/js/AdminPanel.js:794
+msgid "Check-in and check-out dates can't be the same."
+msgstr ""
+
+#: View/AdminPanel/js/AdminPanel.js:749
+#: View/AdminPanel/js/AdminPanel.js:796
+msgid "You must select check-in and check-out dates.."
+msgstr ""
+
+#: View/AdminPanel/js/AdminPanel.js:751
+#: View/AdminPanel/js/AdminPanel.js:798
+msgid "You must select a room."
+msgstr ""
+
+#: View/AdminPanel/js/AdminPanel.js:800
+msgid "You must enter a quantity."
+msgstr ""

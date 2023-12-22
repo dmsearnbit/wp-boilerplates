@@ -1,0 +1,1424 @@
+# Copyright (C) 2022 Emre Danisan
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Rise Hotel Booking Plugin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rise-hotel-"
+"booking\n"
+"POT-Creation-Date: 2022-04-13T12:50:09+02:00\n"
+"PO-Revision-Date: 2022-04-13 16:30+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: rise-hotel-booking\n"
+
+#. Plugin Name of the plugin
+msgid "Rise Hotel Booking Plugin"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.risehotelbooking.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Easy to use Hotel Reservation System for Wordpress"
+msgstr "Wordpress için kullanımı kolay Otel Rezervasyon Sistemi"
+
+#. Author of the plugin
+msgid "Emre Danisan"
+msgstr "Emre Danışan"
+
+#: Controller/ActivityLogController.php:18
+#: Controller/ActivityLogController.php:19
+msgid "Activity Log"
+msgstr "İşlem Geçmişi"
+
+#: Controller/BookingController.php:46
+msgid "Bookings"
+msgstr "Rezervasyonlar"
+
+#: Controller/BookingController.php:47 Controller/BookingController.php:250
+#: Repository/BookingRepository.php:225 Repository/BookingRepository.php:292
+msgid "Booking"
+msgstr "Rezervasyon"
+
+#: Controller/BookingController.php:66
+msgid "Check-in Date"
+msgstr "Giriş Tarihi"
+
+#: Controller/BookingController.php:67
+msgid "Check-out Date"
+msgstr "Çıkış Tarihi"
+
+#: Controller/BookingController.php:68
+msgid "Booking Status"
+msgstr "Rezervasyon Durumu"
+
+#: Controller/BookingController.php:69
+#: View/AdminPanel/BookingItemsMetaBox.php:175
+#: View/FrontEnd/BookingConfirmation.php:197 View/FrontEnd/RoomCheckout.php:356
+msgid "Grand Total"
+msgstr "Genel Toplam"
+
+#: Controller/BookingController.php:70 View/AdminPanel/ActivityLog.php:18
+msgid "Date"
+msgstr "Tarih"
+
+#: Controller/BookingController.php:89 Controller/BookingController.php:97
+msgid "Multiple Rooms"
+msgstr "Birden Fazla Oda"
+
+#: Controller/BookingController.php:125
+msgid "Booking Information"
+msgstr "Rezervasyon Bilgisi"
+
+#: Controller/BookingController.php:134
+msgid "Booking Items"
+msgstr "Rezervasyon İçerikleri"
+
+#: Controller/BookingController.php:384
+msgid "Coupon not found."
+msgstr "Kupon bulunamadı."
+
+#: Controller/BookingController.php:418
+msgid "Coupon is expired or not activated yet."
+msgstr "Kuponun tarihi geçmiş veya henüz geçerli değil."
+
+#: Controller/BookingController.php:427
+msgid "Coupon usage limit has been reached."
+msgstr "Kuponun kullanım limiti doldu."
+
+#: Controller/BookingController.php:695
+msgid ""
+"Booking was completed, but some or all of the e-mails were unsuccessful to "
+"be sent."
+msgstr ""
+"Rezervasyon tamamlandı, ama bazı veya tüm e-mailerin gönderiminde hata "
+"oluştu."
+
+#: Controller/BookingController.php:698
+msgid "Mail Unsuccessful"
+msgstr "Mail Başarısız"
+
+#: Controller/BookingController.php:703
+msgid "Booking Completed"
+msgstr "Rezervasyon Tamamlandı"
+
+#: Controller/BookingController.php:703
+msgid "Booking was completed successfully."
+msgstr "Rezervasyon başarıyla tamamlandı."
+
+#: Controller/BookingController.php:707
+msgid "Booking Failed"
+msgstr "Rezervasyon Başarısız"
+
+#: Controller/BookingController.php:708
+msgid "A booking was not completed successfully."
+msgstr "Rezervasyon tamamlanamadı."
+
+#: Controller/CloseRoomsController.php:18
+#: Controller/CloseRoomsController.php:19
+msgid "Close Rooms"
+msgstr "Odaları Kapat"
+
+#: Controller/CouponController.php:30 Controller/CouponController.php:41
+msgid "Coupon Codes"
+msgstr "Kupon Kodları"
+
+#: Controller/CouponController.php:31
+msgid "Coupon Code"
+msgstr "Kupon Kodu"
+
+#: Controller/CouponController.php:32 Controller/CouponController.php:33
+msgid "Add New Code"
+msgstr "Yeni Kod Ekle"
+
+#: Controller/CouponController.php:34
+msgid "Edit Code"
+msgstr "Kodu Düzenle"
+
+#: Controller/CouponController.php:35
+msgid "New Code"
+msgstr "Yeni Kod"
+
+#: Controller/CouponController.php:36
+msgid "View Code"
+msgstr "Kodu Görüntüle"
+
+#: Controller/CouponController.php:37
+msgid "View Codes"
+msgstr "Kodları Görüntüle"
+
+#: Controller/CouponController.php:38
+msgid "Search Codes"
+msgstr "Kodları Ara"
+
+#: Controller/CouponController.php:39
+msgid "No codes found"
+msgstr "Hiç kod bulunamadı"
+
+#: Controller/CouponController.php:40
+msgid "No codes found in Trash"
+msgstr "Çöpte hiç kod bulunamadı"
+
+#: Controller/CouponController.php:61
+msgid "Coupon Information"
+msgstr "Kupon Bilgisi"
+
+#: Controller/CouponController.php:172
+msgid "New coupon created"
+msgstr "Yeni kupon oluşturuldu"
+
+#: Controller/CouponController.php:173
+msgid "Coupon code: %s"
+msgstr "Kupon kodu: %s"
+
+#: Controller/CouponController.php:178
+msgid "Coupon updated"
+msgstr "Kupon güncellendi"
+
+#: Controller/CouponController.php:201
+msgid "Coupon deleted"
+msgstr "Kupon silindi"
+
+#: Controller/CouponController.php:202
+msgid "Coupon %s has been deleted"
+msgstr "Kupon %s silindi"
+
+#: Controller/CustomRatesController.php:45
+#: Controller/CustomRatesController.php:56
+msgid "Custom Rates"
+msgstr "Özel Fiyatlar"
+
+#: Controller/CustomRatesController.php:46
+msgid "Custom Rate"
+msgstr "Özel Fiyat"
+
+#: Controller/CustomRatesController.php:47
+#: Controller/CustomRatesController.php:48
+msgid "Add New Custom Rate"
+msgstr "Yeni Özel Fiyat Ekle"
+
+#: Controller/CustomRatesController.php:49
+msgid "Edit Custom Rate"
+msgstr "Özel Fiyatları Düzenle"
+
+#: Controller/CustomRatesController.php:50
+msgid "New Custom Rate"
+msgstr "Yeni Özel Fiyat"
+
+#: Controller/CustomRatesController.php:51
+msgid "View Custom Rate"
+msgstr "Özel Fiyatı Görüntüle"
+
+#: Controller/CustomRatesController.php:52
+msgid "View Custom Rates"
+msgstr "Özel Fiyatları Görüntüle"
+
+#: Controller/CustomRatesController.php:53
+msgid "Search Custom Rates"
+msgstr "Özel Fiyatları Ara"
+
+#: Controller/CustomRatesController.php:54
+msgid "No custom rates found"
+msgstr "Hiç özel fiyat bulunamadı"
+
+#: Controller/CustomRatesController.php:55
+msgid "No custom rates found in Trash"
+msgstr "Çöpte hiç özel fiyat bulunamadı"
+
+#: Controller/MailController.php:139
+msgid "You Received a Booking"
+msgstr "Bir Rezervasyon Aldınız"
+
+#: Controller/MailController.php:143
+msgid "Booking Successful"
+msgstr "Rezervasyon Başarılı"
+
+#: Controller/PaymentController.php:64
+msgid "Payment unsuccessful, please choose another payment method."
+msgstr "Ödeme başarısız, lütfen başka bir ödeme yöntemi seçin."
+
+#: Controller/PaymentController.php:251
+msgid "Hotel Rooms"
+msgstr "Hotel Odaları"
+
+#: Controller/PricingPlansController.php:18
+#: Controller/PricingPlansController.php:19
+msgid "Pricing Plans"
+msgstr "Fiyat Planları"
+
+#: Controller/RoomController.php:43
+msgid "Rise Hotel Booking"
+msgstr ""
+
+#: Controller/RoomController.php:44 View/FrontEnd/RoomSearchResults.php:64
+msgid "Room"
+msgstr "Oda"
+
+#: Controller/RoomController.php:45 Controller/RoomController.php:46
+msgid "Add New Room"
+msgstr "Yeni Oda Ekle"
+
+#: Controller/RoomController.php:47
+msgid "Edit Room"
+msgstr "Odayı Düzenle"
+
+#: Controller/RoomController.php:48
+msgid "New Room"
+msgstr "Yeni Oda"
+
+#: Controller/RoomController.php:49
+msgid "View Room"
+msgstr "Odayı Görüntüle"
+
+#: Controller/RoomController.php:50
+msgid "View Rooms"
+msgstr "Odaları Görüntüle"
+
+#: Controller/RoomController.php:51
+msgid "Search Rooms"
+msgstr "Oda Ara"
+
+#: Controller/RoomController.php:52
+msgid "No Rooms found"
+msgstr "Hiç oda bulunamadı"
+
+#: Controller/RoomController.php:53
+msgid "No rooms found in Trash"
+msgstr "Çöpte hiç oda bulunamadı"
+
+#: Controller/RoomController.php:54
+msgid "Rooms"
+msgstr "Odalar"
+
+#: Controller/RoomController.php:79
+msgid "Room Settings"
+msgstr "Oda Ayarları"
+
+#: Controller/RoomController.php:127
+msgid "New room created"
+msgstr "Yeni oda oluşturuldu"
+
+#: Controller/RoomController.php:132
+msgid "Room updated"
+msgstr "Oda güncellendi"
+
+#: Controller/RoomController.php:160
+msgid "Room deleted"
+msgstr "Oda silindi"
+
+#: Controller/RoomController.php:186 Controller/RoomTypeController.php:52
+msgid "Room Type"
+msgstr "Oda Tipi"
+
+#: Controller/RoomController.php:205
+msgid "Unable to get type(s)."
+msgstr "Tip(ler)i getirirken bir hata oluştu."
+
+#: Controller/RoomTypeController.php:34 Controller/RoomTypeController.php:36
+#: Controller/RoomTypeController.php:51
+msgid "Room Types"
+msgstr "Oda Tipleri"
+
+#: Controller/RoomTypeController.php:37
+msgid "All Room Types"
+msgstr "Tüm Oda Tipleri"
+
+#: Controller/RoomTypeController.php:38
+msgid "Edit Room Type"
+msgstr "Oda Tipini Düzenle"
+
+#: Controller/RoomTypeController.php:39
+msgid "View Room Type"
+msgstr "Oda Tipini Görüntüle"
+
+#: Controller/RoomTypeController.php:40
+msgid "Update Room Type"
+msgstr "Oda Tipini Güncelle"
+
+#: Controller/RoomTypeController.php:41
+msgid "Add new Room Type"
+msgstr "Yeni Oda Tipi ekle"
+
+#: Controller/RoomTypeController.php:42
+msgid "New Room Type"
+msgstr "Yeni Oda Tipi"
+
+#: Controller/RoomTypeController.php:43 Controller/RoomTypeController.php:44
+msgid "Parent Room Type"
+msgstr "Üst Oda Tipi"
+
+#: Controller/RoomTypeController.php:45
+msgid "Search Room Types"
+msgstr "Oda Tipi Ara"
+
+#: Controller/RoomTypeController.php:46
+msgid "Popular Room Types"
+msgstr "Popüler Oda Tipleri"
+
+#: Controller/RoomTypeController.php:47
+msgid "Separate Room Types with commas"
+msgstr "Oda Tiplerini virgüller ile ayır"
+
+#: Controller/RoomTypeController.php:48
+msgid "Add or remove Room Types"
+msgstr "Oda Tiplerini ekle veya sil"
+
+#: Controller/RoomTypeController.php:49
+msgid "Choose most used Room Types"
+msgstr "En çok kullanılan Oda Tiplerini seç"
+
+#: Controller/RoomTypeController.php:50
+msgid "No Room Types found"
+msgstr "Hiç Oda Tipi bulunamadı"
+
+#: Controller/RoomTypeController.php:80 Controller/RoomTypeController.php:96
+msgid "Room Capacity"
+msgstr "Oda Kapasitesi"
+
+#: Controller/RoomTypeController.php:127
+msgid "Capacity"
+msgstr "Kapasite"
+
+#: Controller/SettingsController.php:19 Controller/SettingsController.php:20
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: Controller/Shortcode/RoomCheckoutShortcode.php:128
+msgid "Please search a room first."
+msgstr "Lütfen önce bir oda arayın."
+
+#: Repository/CloseRoomsRepository.php:103
+msgid "Room closed"
+msgstr "Oda kapalı"
+
+#: Repository/CloseRoomsRepository.php:104
+msgid "Room ID"
+msgstr "Oda ID"
+
+#: Repository/PricingPlansRepository.php:310
+msgid "Pricing plan added"
+msgstr "Fiyat planı eklendi"
+
+#: Repository/PricingPlansRepository.php:313
+msgid "Regular pricing plan added for the room %s with the price of %s"
+msgstr "Oda %s için normal plan %s fiyatıyla eklendi"
+
+#: Repository/PricingPlansRepository.php:319
+msgid ""
+"Pricing plan added for the room %s for the dates %s - %s with the price of %s"
+msgstr ""
+"Oda %s için %s - %s tarihleri arasına %s fiyatıyla bir fiyat planı eklendi"
+
+#: Repository/PricingPlansRepository.php:377
+msgid "Pricing plan updated"
+msgstr "Fiyat planı güncellendi"
+
+#: Repository/PricingPlansRepository.php:380
+msgid "Regular pricing plan for the room %s updated."
+msgstr "Oda %s için normal plan güncellendi."
+
+#: Repository/PricingPlansRepository.php:386
+msgid "Pricing plan for the room %s updated: %s - %s, with the price %s"
+msgstr ""
+"Oda %s için bir fiyat planı güncellendi: %s - %s tarihleri arası, %s fiyatı "
+"ile"
+
+#: Repository/PricingPlansRepository.php:427
+msgid "Pricing plan deleted"
+msgstr "Fiyat planı silindi"
+
+#: Repository/PricingPlansRepository.php:429
+msgid "Pricing plan deleted for the room %s"
+msgstr "Oda %s için fiyat planı silindi"
+
+#: Repository/RoomRepository.php:40
+msgid "Error"
+msgstr "Hata"
+
+#: Repository/RoomRepository.php:42
+msgid ""
+"Price for the room id: %d for the dates between %s and %s was requested but "
+"not found."
+msgstr ""
+"Oda ID %d için %s ve %s tarihleri arasında bir fiyat istendi, fakat "
+"bulunamadı."
+
+#: rise-hotel-booking.php:233
+msgid "RISE Hotel Booking Warning"
+msgstr "RISE Hotel Booking Uyarısı"
+
+#: rise-hotel-booking.php:234
+msgid ""
+"It is suggested to use a valid SSL certificate & redirect all the traffic "
+"through HTTPS for optimal performance and security."
+msgstr ""
+"Optimum performans ve güvenlik için geçerli bir SSL sertifikası kullanmanız "
+"% tüm trafiği HTTPS üzerinden yönlendirmeniz önerilir."
+
+#: View/AdminPanel/ActivityLog.php:15
+msgid "ID"
+msgstr "ID"
+
+#: View/AdminPanel/ActivityLog.php:16
+msgid "Activity Type"
+msgstr "İşlem Türü"
+
+#: View/AdminPanel/ActivityLog.php:17
+msgid "Details"
+msgstr "Detaylar"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:22
+msgid "Book ID"
+msgstr "Rezervasyon ID"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:23
+msgid "Booked on %s"
+msgstr "%s tarihinde rezerve edildi"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:27
+#: View/AdminPanel/Settings.php:69
+msgid "General"
+msgstr "Genel"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:30
+msgid "Payment Method:"
+msgstr "Ödeme Yöntemi:"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:46
+msgid "Booking Status:"
+msgstr "Rezervasyon Durumu:"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:66
+msgid "Coupon code <b>%s</b> is used in this booking."
+msgstr "Rezervasyonda <b>%s</b> kupon kodu kullanıldı."
+
+#: View/AdminPanel/BookingInformationMetaBox.php:75
+msgid "Customer's Details"
+msgstr "Müşteri Detayları"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:82
+msgid "Name"
+msgstr "İsim"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:86
+#: View/AdminPanel/BookingInformationMetaBox.php:125
+#: View/FrontEnd/BookingConfirmation.php:35
+#: View/FrontEnd/BookingConfirmation.php:90 View/FrontEnd/RoomCheckout.php:450
+#: View/FrontEnd/RoomCheckout.php:455
+msgid "Address"
+msgstr "Adres"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:90
+#: View/AdminPanel/Settings.php:336 View/AdminPanel/Settings.php:343
+msgid "Email"
+msgstr "E-posta"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:94
+#: View/AdminPanel/BookingInformationMetaBox.php:146
+#: View/FrontEnd/BookingConfirmation.php:98 View/FrontEnd/RoomCheckout.php:506
+msgid "Phone"
+msgstr "Telefon"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:101
+msgid "Name Prefix"
+msgstr "İsim Ön Eki"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:115
+#: View/FrontEnd/RoomCheckout.php:432 View/FrontEnd/RoomCheckout.php:437
+msgid "First name"
+msgstr "İsim"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:120
+#: View/FrontEnd/RoomCheckout.php:441 View/FrontEnd/RoomCheckout.php:446
+msgid "Last name"
+msgstr "Soy isim"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:128
+#: View/AdminPanel/Settings.php:274 View/AdminPanel/Settings.php:282
+#: View/FrontEnd/RoomCheckout.php:460 View/FrontEnd/RoomCheckout.php:465
+msgid "City"
+msgstr "Şehir / İlçe"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:134
+#: View/AdminPanel/Settings.php:287 View/AdminPanel/Settings.php:294
+#: View/FrontEnd/RoomCheckout.php:471 View/FrontEnd/RoomCheckout.php:476
+msgid "State / Province"
+msgstr "Eyalet / İl"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:138
+#: View/FrontEnd/RoomCheckout.php:486
+msgid "Postal code"
+msgstr "Posta kodu"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:142
+msgid "Email address"
+msgstr "E-posta Adresi"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:150
+#: View/AdminPanel/Settings.php:300 View/AdminPanel/Settings.php:307
+#: View/FrontEnd/RoomCheckout.php:490
+msgid "Country"
+msgstr "Ülke"
+
+#: View/AdminPanel/BookingInformationMetaBox.php:169
+#: View/AdminPanel/BookingInformationMetaBox.php:179
+msgid "Customer's Notes"
+msgstr "Müşteri Notları"
+
+#: View/AdminPanel/BookingItemsMetaBox.php:17
+msgid "Add new item"
+msgstr "Yeni oda ekle"
+
+#: View/AdminPanel/BookingItemsMetaBox.php:28
+msgid "Select room"
+msgstr "Oda seç"
+
+#: View/AdminPanel/BookingItemsMetaBox.php:37
+#: View/AdminPanel/BookingItemsMetaBox.php:90
+msgid "Check-in & Check-out"
+msgstr "Giriş & Çıkış"
+
+#: View/AdminPanel/BookingItemsMetaBox.php:48 View/FrontEnd/RoomSearch.php:48
+msgid "Check Availability"
+msgstr "Müsaitliği Kontrol Et"
+
+#: View/AdminPanel/BookingItemsMetaBox.php:52
+msgid "Add/Save"
+msgstr "Ekle/Kaydet"
+
+#: View/AdminPanel/BookingItemsMetaBox.php:89
+msgid "Item"
+msgstr "Oda"
+
+#: View/AdminPanel/BookingItemsMetaBox.php:91
+#: View/FrontEnd/BookingConfirmation.php:131 View/FrontEnd/RoomCheckout.php:174
+msgid "Night"
+msgstr "Gece"
+
+#: View/AdminPanel/BookingItemsMetaBox.php:92
+msgid "Qty"
+msgstr "Miktar"
+
+#: View/AdminPanel/BookingItemsMetaBox.php:93
+#: View/FrontEnd/BookingConfirmation.php:128 View/FrontEnd/RoomCheckout.php:171
+#: View/FrontEnd/RoomSearchResults.php:70
+msgid "Includes"
+msgstr "İçerik"
+
+#: View/AdminPanel/BookingItemsMetaBox.php:94
+msgid "Total"
+msgstr "Toplam"
+
+#: View/AdminPanel/BookingItemsMetaBox.php:95
+#: View/FrontEnd/RoomCheckout.php:176
+msgid "Actions"
+msgstr "Eylemler"
+
+#: View/AdminPanel/BookingItemsMetaBox.php:114
+#: View/FrontEnd/BookingConfirmation.php:153 View/FrontEnd/RoomCheckout.php:240
+#: View/FrontEnd/RoomSearchResults.php:122
+#: View/FrontEnd/RoomSearchResults.php:161
+msgid "Regular"
+msgstr "Normal"
+
+#: View/AdminPanel/BookingItemsMetaBox.php:148
+msgid "Add Room Item"
+msgstr "Oda Ekle"
+
+#: View/AdminPanel/BookingItemsMetaBox.php:159
+#: View/FrontEnd/BookingConfirmation.php:185 View/FrontEnd/RoomCheckout.php:340
+msgid "Sub Total"
+msgstr "Ara Toplam"
+
+#: View/AdminPanel/BookingItemsMetaBox.php:167 View/AdminPanel/Settings.php:117
+#: View/FrontEnd/BookingConfirmation.php:191 View/FrontEnd/RoomCheckout.php:349
+msgid "Tax"
+msgstr "Vergi"
+
+#: View/AdminPanel/BookingItemsMetaBox.php:183
+msgid "Advance Payment"
+msgstr "Ön Ödeme"
+
+#: View/AdminPanel/CloseRooms.php:42 View/AdminPanel/PricingPlans.php:102
+msgid "Select a room"
+msgstr "Bir oda seç"
+
+#: View/AdminPanel/CloseRooms.php:60
+msgid "Add new date"
+msgstr "Yeni tarih ekle"
+
+#: View/AdminPanel/CloseRooms.php:67
+msgid "No dates added."
+msgstr "Hiç tarih eklenmedi."
+
+#: View/AdminPanel/CloseRooms.php:92 View/AdminPanel/PricingPlans.php:278
+#: View/AdminPanel/Settings.php:643
+msgid "Apply Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: View/AdminPanel/CouponInformationMetaBox.php:5
+msgid "Coupon code"
+msgstr "Kupon kodu"
+
+#: View/AdminPanel/CouponInformationMetaBox.php:8
+msgid "The coupon code to be used at checkout."
+msgstr "Ödeme aşamasında kullanılacak kupon kodu."
+
+#: View/AdminPanel/CouponInformationMetaBox.php:18
+msgid "Discount percentage (without \"%\" sign)"
+msgstr "İndirim oranı (\"%\" işareti olmadan)"
+
+#: View/AdminPanel/CouponInformationMetaBox.php:21
+msgid ""
+"The discount percentage to be applied to the total price of the booking."
+msgstr "Rezervasyonun toplam fiyatına uygulanacak indirim yüzdesi."
+
+#: View/AdminPanel/CouponInformationMetaBox.php:31
+#: View/AdminPanel/CouponInformationMetaBox.php:39
+msgid "Utilization dates"
+msgstr "Kullanım tarihleri"
+
+#: View/AdminPanel/CouponInformationMetaBox.php:34
+msgid "The dates when the coupon can be used."
+msgstr "Kuponun kullanılabileceği tarih aralığı."
+
+#: View/AdminPanel/CouponInformationMetaBox.php:48
+msgid "Utilization dates are the same as reservation dates"
+msgstr "Kullanım tarihleri rezervasyon tarihleri ile aynı"
+
+#: View/AdminPanel/CouponInformationMetaBox.php:51
+msgid ""
+"If checked, the utilization dates will be set as the same as the reservation "
+"dates. Any change made to utilization dates will change reservation dates "
+"too, and any change made to reservation dates will change utilization dates "
+"too."
+msgstr ""
+"Eğer bu seçenek işaretliyse, kullanım tarihleri rezervasyon ile aynı olarak "
+"ayarlanacaktır. Bu seçenek aktifken kullanım tarihlerine yapılan herhangi "
+"bir değişiklik rezervasyon tarihlerini, rezervasyon tarihlerine yapılan "
+"herhangi bir değişiklik de kullanım tarihlerini etkileyecektir."
+
+#: View/AdminPanel/CouponInformationMetaBox.php:59
+#: View/AdminPanel/CouponInformationMetaBox.php:67
+msgid "Reservation dates"
+msgstr "Rezervasyon tarihleri"
+
+#: View/AdminPanel/CouponInformationMetaBox.php:62
+msgid "The reservation dates between which the coupon will be valid."
+msgstr "Kuponun geçerli olacağı rezervasyon tarihleri."
+
+#: View/AdminPanel/CouponInformationMetaBox.php:73
+#: View/AdminPanel/CouponInformationMetaBox.php:81
+msgid "Quantity (-1 for unlimited)"
+msgstr "Miktar (sınırsız için -1)"
+
+#: View/AdminPanel/CouponInformationMetaBox.php:76
+msgid "The amount of bookings that the coupon is valid for."
+msgstr "Kuponun geçerli olacağı rezervasyon sayısı."
+
+#: View/AdminPanel/PricingPlans.php:43 View/AdminPanel/PricingPlans.php:222
+msgid "Dates: "
+msgstr "Tarihler: "
+
+#: View/AdminPanel/PricingPlans.php:46
+msgid "No date"
+msgstr "Tarih yok"
+
+#: View/AdminPanel/PricingPlans.php:57 View/AdminPanel/PricingPlans.php:140
+#: View/AdminPanel/PricingPlans.php:239
+msgid "Nightly price"
+msgstr "Gecelik ücret"
+
+#: View/AdminPanel/PricingPlans.php:125
+msgid "Regular Price"
+msgstr "Normal Ücret"
+
+#: View/AdminPanel/PricingPlans.php:127
+msgid "This price will be valid for the dates when no other plans are set."
+msgstr "Bu ücret, başka bir planın olmadığı tarihlerde geçerli olacaktır."
+
+#: View/AdminPanel/PricingPlans.php:177
+msgid "Other plans"
+msgstr "Diğer planlar"
+
+#: View/AdminPanel/PricingPlans.php:179
+msgid ""
+"Each plan has its own dates and price. The price is valid for the dates set "
+"on the plan."
+msgstr ""
+"Her planın kendi tarihi ve fiyatı vardır. Fiyat, planda belirlenen tarihler "
+"içerisinde geçerlidir."
+
+#: View/AdminPanel/PricingPlans.php:284
+msgid "Room not found"
+msgstr "Oda bulunamadı"
+
+#: View/AdminPanel/RoomSettingsMetaBox.php:4
+#: View/FrontEnd/BookingConfirmation.php:127 View/FrontEnd/RoomCheckout.php:170
+#: View/FrontEnd/RoomSearch.php:39 View/FrontEnd/RoomSearch.php:41
+msgid "Quantity"
+msgstr "Miktar"
+
+#: View/AdminPanel/RoomSettingsMetaBox.php:13
+msgid "Number of adults"
+msgstr "Yetişkin sayısı"
+
+#: View/AdminPanel/RoomSettingsMetaBox.php:22
+msgid "Short Description"
+msgstr "Kısa Açıklama"
+
+#: View/AdminPanel/Settings.php:71
+msgid "Hotel Info"
+msgstr "Hotel Bilgisi"
+
+#: View/AdminPanel/Settings.php:73
+msgid "Payments"
+msgstr "Ödemeler"
+
+#: View/AdminPanel/Settings.php:74
+msgid "Mail"
+msgstr "E-posta"
+
+#: View/AdminPanel/Settings.php:90
+msgid "Currency"
+msgstr "Para Birimi"
+
+#: View/AdminPanel/Settings.php:92
+msgid ""
+"Website currency. All the payments will be made in the currency you select "
+"here."
+msgstr ""
+"Sitenizin para birimi. Tüm ödemeler burada seçtiğiniz para birimi üzerinden "
+"yapılır."
+
+#: View/AdminPanel/Settings.php:110
+msgid "Tax Percentage (if not included)"
+msgstr "Vergi Yüzdesi (eğer dahil değilse)"
+
+#: View/AdminPanel/Settings.php:112
+msgid "This will be included in grand total and advance payment prices."
+msgstr "Bu yüzde genel toplam ve ön ödeme fiyatlarına dahil edilecektir."
+
+#: View/AdminPanel/Settings.php:122 View/AdminPanel/Settings.php:129
+msgid "Advance Payment Percentage"
+msgstr "Ön Ödeme Yüzdesi"
+
+#: View/AdminPanel/Settings.php:124
+msgid ""
+"This is the percentage of grand total price that the customers will pay. "
+"Leave this at 100 if you want the users to make all the payment at the time "
+"of reservation."
+msgstr ""
+"Bu, genel toplamın müşterinin rezervasyon sırasında ödeyeceği kısmının "
+"yüzdesidir. Eğer müşterinin rezervasyon yaparken ücretin tamamını ödemesini "
+"istiyorsanız, bu değeri 100 yapabilirsiniz."
+
+#: View/AdminPanel/Settings.php:134
+msgid "Room Search Results Page"
+msgstr "Oda Arama Sonuçları Sayfası"
+
+#: View/AdminPanel/Settings.php:136
+msgid ""
+"This is the page where the search results will be displayed. Check tutorials "
+"on the official Rise Hotel Booking website to see how to create a search "
+"results page."
+msgstr ""
+"Arama sonuçlarının gösterileceği sayfa burasıdır. Arama sonuçları sayfasının "
+"nasıl oluşturulacağını görmek için Rise Hotel Booking resmi sitesindeki "
+"rehberlere göz atabilirsiniz."
+
+#: View/AdminPanel/Settings.php:154
+msgid "Room Checkout Page"
+msgstr "Oda Rezervasyon Sayfası"
+
+#: View/AdminPanel/Settings.php:156
+msgid ""
+"This is the page where the checkout form will be displayed. Check tutorials "
+"on the official Rise Hotel Booking website to see how to create a checkout "
+"page."
+msgstr ""
+"Müşterinin müşteri bilgileri, ödeme yöntemi gibi bilgileri doldurduğu, ödeme "
+"işleminden hemen önceki son sayfadır. Rezervasyon sayfasının nasıl "
+"oluşturulacağını görmek için Rise Hotel Booking resmi sitesindeki rehberlere "
+"göz atabilirsiniz."
+
+#: View/AdminPanel/Settings.php:174
+msgid "Terms and Conditions Page"
+msgstr "Şartlar ve Koşullar Sayfası"
+
+#: View/AdminPanel/Settings.php:176
+msgid ""
+"This is the page where the terms and conditions will be displayed. Check "
+"tutorials on the official Rise Hotel Booking website to see how to create a "
+"terms and conditions page."
+msgstr ""
+"Sitenizin ve hotelinizin şartları ve koşullarının görüntülendiği sayfadır. "
+"Şartlar ve Koşullar sayfasının nasıl oluşturulacağını görmek için Rise Hotel "
+"Booking resmi sitesindeki rehberlere göz atabilirsiniz."
+
+#: View/AdminPanel/Settings.php:194
+msgid "Allow editing existing booking items?"
+msgstr "Oluşturulmuş rezervasyonları düzenlemeye izin verilsin mi?"
+
+#: View/AdminPanel/Settings.php:196
+msgid ""
+"If you enable this option, website administrators will be able to add and "
+"remove new rooms to an existing bookings from the Bookings page in the "
+"dashboard."
+msgstr ""
+"Eğer bu seçeneği seçerseniz, site yöneticileri Rezervasyonlar sayfasından "
+"müşterilerin yaptığı rezervasyonlara oda ekleyip çıkarabileceklerdir."
+
+#: View/AdminPanel/Settings.php:201
+msgid "Allow editing bookings?"
+msgstr "Rezervasyonları düzenlemeye izin verilsin mi?"
+
+#: View/AdminPanel/Settings.php:207 View/AdminPanel/Settings.php:214
+msgid "Delete all data when plugin is removed?"
+msgstr "Eklenti kaldırıldığında tüm veri silinsin mi?"
+
+#: View/AdminPanel/Settings.php:209
+msgid ""
+"If you enable this option, all data that belongs to the plugin (such as "
+"rooms, bookings, settings etc.) will be deleted when plugin is uninstalled."
+msgstr ""
+"Eğer bu seçeneği işaretlerseniz, eklentiyi kaldırdığınızda bu eklentiye ait "
+"olan tüm veriler (odalar, rezervasyonlar, ayarlar vs.) silinecektir."
+
+#: View/AdminPanel/Settings.php:222
+msgid "Show \"Booking Engine Powered by Rise\" link in footer and checkout?"
+msgstr ""
+"Footer ve rezervasyon kısımlarında \"Rezervasyon altyapısı Rise tarafından "
+"sağlanmıştır.\" yazısı gösterilsin mi?"
+
+#: View/AdminPanel/Settings.php:229
+msgid ""
+"If you enable this option, the Booking engine powered by Rise link will be "
+"displayed in the footer of the website and in the checkout page."
+msgstr ""
+"Eğer bu seçeneği işaretlerseniz, \"Rezervasyon altyapısı Rise tarafından "
+"sağlanmıştır.\" yazısı sitenin en alt kısmında bulunan Footer kısmında ve "
+"rezervasyon sayfasında görüntülenecektir."
+
+#: View/AdminPanel/Settings.php:234
+msgid "Show 'Powered by Rise' link in footer and checkout?"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:249 View/AdminPanel/Settings.php:256
+#: View/FrontEnd/BookingConfirmation.php:81
+msgid "Hotel Name"
+msgstr "Hotel Adı"
+
+#: View/AdminPanel/Settings.php:251
+msgid "Name of the hotel."
+msgstr "Hotelinizin adı."
+
+#: View/AdminPanel/Settings.php:261 View/AdminPanel/Settings.php:269
+msgid "Hotel Address"
+msgstr "Hotel Adresi"
+
+#: View/AdminPanel/Settings.php:263
+msgid "Address of the hotel."
+msgstr "Hotelinizin adresi."
+
+#: View/AdminPanel/Settings.php:276
+msgid "City the hotel is located at."
+msgstr "Hotelin bulunduğu şehir/ilçe."
+
+#: View/AdminPanel/Settings.php:289
+msgid "State / Province the hotel is located at."
+msgstr "Hotelin bulunduğu eyalet/il."
+
+#: View/AdminPanel/Settings.php:302
+msgid "Country the hotel is located at."
+msgstr "Hotelin bulunduğu ülke."
+
+#: View/AdminPanel/Settings.php:312 View/AdminPanel/Settings.php:319
+msgid "Zip Code"
+msgstr "Posta Kodu"
+
+#: View/AdminPanel/Settings.php:314
+msgid "Zip Code of the region hotel is located at."
+msgstr "Hotelinizin bulunduğu bölgenin posta kodu."
+
+#: View/AdminPanel/Settings.php:324 View/AdminPanel/Settings.php:331
+#: View/FrontEnd/BookingConfirmation.php:41 View/FrontEnd/RoomCheckout.php:511
+msgid "Phone Number"
+msgstr "Telefon Numarası"
+
+#: View/AdminPanel/Settings.php:326
+msgid "Phone number of the hotel."
+msgstr "Hotelinizin telefon numarası."
+
+#: View/AdminPanel/Settings.php:338
+msgid "Email of the hotel."
+msgstr "Hotelinizin e-posta adresi."
+
+#: View/AdminPanel/Settings.php:357
+msgid "Offline"
+msgstr "Çevrimdışı"
+
+#: View/AdminPanel/Settings.php:359
+msgid "Pay on Arrival"
+msgstr "Varışta Ödeme"
+
+#: View/AdminPanel/Settings.php:369
+msgid "Enable offline payments?"
+msgstr "Çevrimdışı ödemelere izin verilsin mi?"
+
+#: View/AdminPanel/Settings.php:371
+msgid ""
+"When enabled, customers will be able to complete bookings without making a "
+"payment online. The booking will be added with pending status, and customer "
+"will make the payment according to the instructions you provided below."
+msgstr ""
+"Bu seçeneği işaretlerseniz, müşteriler rezervasyonu herhangi bir çevrimiçi "
+"ödeme yapmadan tamamlayabilirler. Bu durumda rezervasyon \"beklemede\" "
+"olarak eklenir, ve sizin alt kısımda belirlediğiniz talimatlara göre ödemeyi "
+"gerçekleştirir."
+
+#: View/AdminPanel/Settings.php:376
+msgid "Enable-offline-payments?"
+msgstr ""
+
+#: View/AdminPanel/Settings.php:382 View/AdminPanel/Settings.php:390
+msgid "Offline Payment Instructions"
+msgstr "Çevrimdışı Ödeme Talimatları"
+
+#: View/AdminPanel/Settings.php:384
+msgid ""
+"Instructions for offline payments. This will be displayed on the checkout "
+"page."
+msgstr ""
+"Çevrimdışı ödeme için talimatlar. Bu, rezervasyon sayfasında gösterilecektir."
+
+#: View/AdminPanel/Settings.php:399 View/AdminPanel/Settings.php:406
+msgid "Enable Pay on Arrival?"
+msgstr "Varışta Ödemeye izin verilsin mi?"
+
+#: View/AdminPanel/Settings.php:401
+msgid ""
+"When enabled, customers will be able to complete bookings without making a "
+"payment online. The booking will be added with pending status, and the "
+"customer will make the payment at the check-in date when they arrive at the "
+"hotel."
+msgstr ""
+"Bu seçeneği işaretlerseniz, müşteriler rezervasyonu herhangi bir çevrimiçi "
+"ödeme yapmadan tamamlayabilirler. Bu durumda rezervasyon \"beklemede\" "
+"olarak eklenir, ve müşteriler giriş tarihinde hotele vardıklarında ödemeyi "
+"yaparlar."
+
+#: View/AdminPanel/Settings.php:412 View/AdminPanel/Settings.php:420
+msgid "Pay on Arrival Instructions"
+msgstr "Varışta Ödeme Talimatları"
+
+#: View/AdminPanel/Settings.php:414
+msgid ""
+"Instructions for Pay on Arrival payments. This will be displayed on the "
+"checkout page."
+msgstr ""
+"Varışta Ödeme için talimatlar. Bu, rezervasyon sayfasında gösterilecektir."
+
+#: View/AdminPanel/Settings.php:429 View/AdminPanel/Settings.php:436
+msgid "Enable PayPal payments?"
+msgstr "PayPal ödemelerine izin verilsin mi?"
+
+#: View/AdminPanel/Settings.php:431
+msgid "Enable this to allow customers to make payments using PayPal."
+msgstr ""
+"Müşterilerin PayPal ile ödeme yapabilmesine izin vermek için bu seçeneği "
+"işaretleyin."
+
+#: View/AdminPanel/Settings.php:442 View/AdminPanel/Settings.php:450
+msgid "PayPal Payment Instructions"
+msgstr "PayPal Ödeme Talimatları"
+
+#: View/AdminPanel/Settings.php:444
+msgid ""
+"Instructions for PayPal payments. This will be displayed on the checkout "
+"page."
+msgstr ""
+"PayPal ödemeleri için talimatlar. Bu, rezervasyon sayfasında gösterilecektir."
+
+#: View/AdminPanel/Settings.php:459 View/AdminPanel/Settings.php:466
+msgid "Enable Stripe payments?"
+msgstr "Stripe ödemelerine izin verilsin mi?"
+
+#: View/AdminPanel/Settings.php:461
+msgid "Enable this to allow customers to make payments using Stripe."
+msgstr ""
+"Müşterilerin Stripe kullanarak ödeme yapmalarına izin vermek için bu "
+"seçeneği işaretleyin."
+
+#: View/AdminPanel/Settings.php:472 View/AdminPanel/Settings.php:479
+msgid "Stripe Secret Key"
+msgstr "Stripe Secret Anahtarı"
+
+#: View/AdminPanel/Settings.php:474
+msgid ""
+"Stripe Secret Key. This is required to make Stripe payments. For more "
+"information, visit tutorials page on Rise Hotel Booking website."
+msgstr ""
+"Stripe Secret Anahtarı. Bu, Stripe ödemelerini yapabilmek için gereklidir. "
+"Daha fazla bilgi için, Rise Hotel Booking sitesindeki rehberleri "
+"inceleyebilirsiniz."
+
+#: View/AdminPanel/Settings.php:485 View/AdminPanel/Settings.php:493
+msgid "Stripe Payment Instructions"
+msgstr "Stripe Ödeme Talimatları"
+
+#: View/AdminPanel/Settings.php:487
+msgid ""
+"Instructions for Stripe payments. This will be displayed on the checkout "
+"page."
+msgstr ""
+"Stripe ödemeleri için talimatlar. Bu, rezervasyon sayfasında "
+"görüntülenecektir."
+
+#: View/AdminPanel/Settings.php:502 View/AdminPanel/Settings.php:509
+msgid "Enable Iyzico payments?"
+msgstr "Iyzico ödemelerine izin verilsin mi?"
+
+#: View/AdminPanel/Settings.php:504
+msgid "Enable this to allow customers to make payments using Iyzico."
+msgstr ""
+"Müşterilerin Iyzico kullanarak ödeme yapmasına izin vermek için bu seçeneği "
+"işaretleyin."
+
+#: View/AdminPanel/Settings.php:514
+msgid "Warning!"
+msgstr "Uyarı!"
+
+#: View/AdminPanel/Settings.php:517
+msgid ""
+"When enabled, Iyzico logo band will be shown in the footer and at the "
+"checkout page."
+msgstr ""
+"Iyzico ödemesi aktifken, Iyzico logo bandı sitenin footer kısmında ve "
+"rezervasyon sayfasında görüntülenecektir."
+
+#: View/AdminPanel/Settings.php:529
+msgid "Error!"
+msgstr "Hata!"
+
+#: View/AdminPanel/Settings.php:532
+msgid ""
+"Your site currency is not supported by Iyzico. Supported currencies are: "
+msgstr ""
+"Şuan kullandığınız para birimi, Iyzico tarafından desteklenmemektedir. "
+"Desteklenen para birimleri şunlardır: "
+
+#: View/AdminPanel/Settings.php:545 View/AdminPanel/Settings.php:552
+msgid "Iyzico API Key"
+msgstr "Iyzico API Anahtarı"
+
+#: View/AdminPanel/Settings.php:547
+msgid ""
+"Iyzico API Key. This is required for Iyzico payments. For more information, "
+"visit tutorials page on Rise Hotel Booking website"
+msgstr ""
+"Iyzico API Anahtarı. Bu, Iyzico ödemeleri için gereklidir. Daha fazla bilgi "
+"için, Rise Hotel Booking sitesindeki rehberlere göz atabilirsiniz"
+
+#: View/AdminPanel/Settings.php:558 View/AdminPanel/Settings.php:565
+msgid "Iyzico Secret Key"
+msgstr "Iyzico Secret Anahtarı"
+
+#: View/AdminPanel/Settings.php:560
+msgid ""
+"Iyzico Secret Key. This is required for Iyzico payments. For more "
+"information, visit tutorials page on Rise Hotel Booking website"
+msgstr ""
+"Iyzico Secret Anahtarı. Bu, Iyzico ödemeleri için gereklidir. Daha fazla "
+"bilgi için, Rise Hotel Booking sitesindeki rehberlere göz atabilirsini"
+
+#: View/AdminPanel/Settings.php:571 View/AdminPanel/Settings.php:578
+msgid "Enable test mode?"
+msgstr "Test modu aktifleştirilsin mi?"
+
+#: View/AdminPanel/Settings.php:573
+msgid ""
+"This is just for test purposes. When enabled, you will not receive any "
+"payments and customers will be able create bookings without making any "
+"payments. Use with caution, never enable this on a live website."
+msgstr ""
+"Bu, sadece test amaçlıdır. Aktifleştirildiğinde hiçbir ödeme almazsınız ve "
+"müşteriler sitenizde hiçbir ödeme yapmadan rezervasyon yapabilirler. "
+"Dikkatli kullanın, ve asla genel kullanıma açık bir sitede bu özelliği "
+"aktifleştirmeyin."
+
+#: View/AdminPanel/Settings.php:584 View/AdminPanel/Settings.php:592
+msgid "Iyzico Payment Instructions"
+msgstr "Iyzico Ödeme Talimatları"
+
+#: View/AdminPanel/Settings.php:586
+msgid ""
+"Instructions for Iyzico payments. This will be displayed on the checkout "
+"page."
+msgstr ""
+"Iyzico ödemeleri için talimatlar. Bu, rezervasyon sayfasında "
+"görüntülenecektir."
+
+#: View/AdminPanel/Settings.php:609
+msgid "Enable sending mails"
+msgstr "Mail gönderimi yapılsın mı?"
+
+#: View/AdminPanel/Settings.php:611
+msgid ""
+"When enabled, booking confirmation mails will be sent to customers, and the "
+"mail addresses entered below."
+msgstr ""
+"Bu seçenek işaretliyse, bir rezervasyon yapıldığında rezervasyon onay e-"
+"postaları müşterilere, ve aşağıda girilen e-posta adreslerine "
+"gönderilecektir."
+
+#: View/AdminPanel/Settings.php:624
+msgid "Email address(es) to receive notifications (one address per line)"
+msgstr ""
+"Rezervasyon bildirimi gönderilecek e-posta adres(ler)i. (her satıra bir "
+"adres)"
+
+#: View/AdminPanel/Settings.php:631
+msgid ""
+"Enter the email addresses you want to receive notifications when a booking "
+"is made. You can enter multiple email addresses, one address per line."
+msgstr ""
+"Bir rezervasyon yapıldığında bunun bildirimini almak istediğiniz e-posta "
+"adreslerini girin. Birden fazla e-posta adresi girebilirsiniz, her satıra "
+"bir e-posta adresi gelmeli."
+
+#: View/AdminPanel/Settings.php:637
+msgid "Email address(es) to receive notifications"
+msgstr "Rezervasyon bildirimi gönderilecek e-posta adres(ler)i"
+
+#: View/FrontEnd/BookingConfirmation.php:20
+msgid "Booking Confirmation"
+msgstr "Rezervasyon Onayı"
+
+#: View/FrontEnd/BookingConfirmation.php:24
+msgid "Book Information:"
+msgstr "Rezervasyon Bilgisi:"
+
+#: View/FrontEnd/BookingConfirmation.php:27
+msgid "Full Name"
+msgstr "Ad Soyad"
+
+#: View/FrontEnd/BookingConfirmation.php:48 View/FrontEnd/RoomCheckout.php:520
+msgid "E-mail Address"
+msgstr "E-posta Adresi"
+
+#: View/FrontEnd/BookingConfirmation.php:56 View/FrontEnd/RoomCheckout.php:529
+msgid "Payment Method"
+msgstr "Ödeme Yöntemi"
+
+#: View/FrontEnd/BookingConfirmation.php:67
+msgid "Coupon code %s is included in this booking."
+msgstr "Kupon kodu %s bu rezervasyonda kullanılmıştır."
+
+#: View/FrontEnd/BookingConfirmation.php:78
+msgid "Hotel Information"
+msgstr "Hotel Bilgileri"
+
+#: View/FrontEnd/BookingConfirmation.php:106 View/FrontEnd/RoomCheckout.php:397
+#: View/FrontEnd/RoomCheckout.php:515
+msgid "E-mail"
+msgstr "E-posta"
+
+#: View/FrontEnd/BookingConfirmation.php:119
+msgid "Booked Room(s)"
+msgstr "Rezervasyonu yapılan oda(lar)"
+
+#: View/FrontEnd/BookingConfirmation.php:125 View/FrontEnd/RoomCheckout.php:168
+msgid "Room type"
+msgstr "Oda türü"
+
+#: View/FrontEnd/BookingConfirmation.php:126 View/FrontEnd/RoomCheckout.php:169
+#: View/FrontEnd/RoomSearch.php:31 View/FrontEnd/RoomSearch.php:33
+msgid "Number of People"
+msgstr "Kişi Sayısı"
+
+#: View/FrontEnd/BookingConfirmation.php:129 View/FrontEnd/RoomCheckout.php:172
+msgid "Check-in"
+msgstr "Giriş"
+
+#: View/FrontEnd/BookingConfirmation.php:130 View/FrontEnd/RoomCheckout.php:173
+msgid "Check-out"
+msgstr "Çıkış"
+
+#: View/FrontEnd/BookingConfirmation.php:132 View/FrontEnd/RoomCheckout.php:175
+msgid "Gross Total"
+msgstr "Ara Toplam"
+
+#: View/FrontEnd/BookingConfirmation.php:205 View/FrontEnd/RoomCheckout.php:367
+msgid "Advance Payment (%s of Grand Total)"
+msgstr "Ön Ödeme (Genel Toplamın %s kadarı)"
+
+#: View/FrontEnd/BookingConfirmation.php:223
+msgid "Payment Instructions"
+msgstr "Ödeme Talimatları"
+
+#: View/FrontEnd/Footer.php:10 View/FrontEnd/RoomCheckout.php:384
+msgid "Booking engine powered by Rise"
+msgstr "Rezervasyon altyapısı Rise tarafından sağlanmıştır"
+
+#: View/FrontEnd/RoomCheckout.php:113 View/FrontEnd/RoomCompleteCheckout.php:43
+#: View/FrontEnd/RoomCompleteCheckout.php:84
+msgid "An unexpected error occurred."
+msgstr "Beklenmeyen bir hata oluştu."
+
+#: View/FrontEnd/RoomCheckout.php:122
+msgid "Payment is not completed."
+msgstr "Ödeme tamamlanmadı."
+
+#: View/FrontEnd/RoomCheckout.php:163
+msgid "Book Room"
+msgstr "Oda Rezerve Et"
+
+#: View/FrontEnd/RoomCheckout.php:314
+msgid ""
+"Coupon <b class=\"rise-checkout-applied-coupon\">%s</b> has been applied."
+msgstr "Kupon <b class=\"rise-checkout-applied-coupon\">%s</b> eklendi."
+
+#: View/FrontEnd/RoomCheckout.php:316
+msgid "Remove coupon?"
+msgstr "Kuponu kaldır?"
+
+#: View/FrontEnd/RoomCheckout.php:320
+msgid "Coupon"
+msgstr "Kupon"
+
+#: View/FrontEnd/RoomCheckout.php:328
+msgid "Apply Coupon"
+msgstr "Kuponu Uygula"
+
+#: View/FrontEnd/RoomCheckout.php:392
+msgid "Billing Details"
+msgstr "Fatura Detayları"
+
+#: View/FrontEnd/RoomCheckout.php:394
+msgid "Existing customer?"
+msgstr "Geri gelen müşteri"
+
+#: View/FrontEnd/RoomCheckout.php:401
+msgid "Your e-mail here"
+msgstr "E-posta adresiniz"
+
+#: View/FrontEnd/RoomCheckout.php:405
+msgid "Apply"
+msgstr "Uygula"
+
+#: View/FrontEnd/RoomCheckout.php:413
+msgid "New customer"
+msgstr "Yeni müşteri"
+
+#: View/FrontEnd/RoomCheckout.php:418
+msgid "Title"
+msgstr "İsim ön eki"
+
+#: View/FrontEnd/RoomCheckout.php:422
+msgid "Select title"
+msgstr "İsim ön eki seçiniz"
+
+#: View/FrontEnd/RoomCheckout.php:481
+msgid "Postal Code"
+msgstr "Posta Kodu"
+
+#: View/FrontEnd/RoomCheckout.php:496
+msgid "Select country"
+msgstr "Ülke seçiniz"
+
+#: View/FrontEnd/RoomCheckout.php:568
+msgid "No payment methods available."
+msgstr "Hiç ödeme yöntemi bulunamadı."
+
+#: View/FrontEnd/RoomCheckout.php:575
+msgid "Additional Information"
+msgstr "Ek Bilgi"
+
+#: View/FrontEnd/RoomCheckout.php:589
+msgid "I agree with <a href=\"%s\" target=\"_blank\">Terms and Conditions</a>"
+msgstr ""
+"<a href=\"%s\" target=\"_blank\">Şartlar ve Koşulları</a> kabul ediyorum"
+
+#: View/FrontEnd/RoomCheckout.php:597
+msgid "Check out"
+msgstr "Ödemeyi yap"
+
+#: View/FrontEnd/RoomCompleteCheckout.php:13
+msgid "You must agree with terms and conditions to continue booking."
+msgstr ""
+"Rezervasyon işlemine devam edebilmek için şartlar ve koşulları kabul "
+"etmelisiniz."
+
+#: View/FrontEnd/RoomCompleteCheckout.php:29
+msgid "You must fill all the required fields to continue booking"
+msgstr ""
+"Rezervasyon işlemine devam edebilmek için tüm gerekli alanları "
+"doldurmalısınız"
+
+#: View/FrontEnd/RoomCompleteCheckout.php:36
+msgid "Invalid e-mail."
+msgstr "Geçersiz e-posta."
+
+#: View/FrontEnd/RoomCompleteCheckout.php:57
+msgid ""
+"One of the rooms in the booking was not available between your check-in and "
+"check-out dates. Booking unsuccessful."
+msgstr ""
+"Rezervasyonda bulunan bir oda sizin giriş ve çıkış tarihleriniz arasında "
+"müsait olmadığından rezervasyon başarısız oldu."
+
+#: View/FrontEnd/RoomSearch.php:21
+msgid "Arrival & Departure Date"
+msgstr "Giriş & Çıkış Tarihi"
+
+#: View/FrontEnd/RoomSearch.php:23
+msgid "Check-in & Check-out Date"
+msgstr "Giriş & Çıkış Tarihi"
+
+#: View/FrontEnd/RoomSearchResults.php:31
+msgid "Please fill all fields before searching a room."
+msgstr "Lütfen oda aramadan önce tüm alanları doldurun."
+
+#: View/FrontEnd/RoomSearchResults.php:67
+msgid "Price"
+msgstr "Ücret"
+
+#: View/FrontEnd/RoomSearchResults.php:131
+#: View/FrontEnd/RoomSearchResults.php:170
+msgid "Book this room"
+msgstr "Bu odayı rezerve et"
+
+#: View/FrontEnd/RoomSearchResults.php:190
+msgid ""
+"There are no rooms available for the selected dates, number of people and "
+"quantity."
+msgstr ""
+"Seçilen tarihler, kişi sayısı ve miktar için hiç müsait oda bulunamadı."
+
+#: View/AdminPanel/js/AdminPanel.js:444
+msgid "CLOSED"
+msgstr "KAPALI"
+
+#: View/AdminPanel/js/AdminPanel.js:747 View/AdminPanel/js/AdminPanel.js:794
+msgid "Check-in and check-out dates can't be the same."
+msgstr "Giriş ve çıkış tarihleri aynı olamaz."
+
+#: View/AdminPanel/js/AdminPanel.js:749 View/AdminPanel/js/AdminPanel.js:796
+msgid "You must select check-in and check-out dates.."
+msgstr "Giriş ve çıkış tarihlerini seçmelisiniz."
+
+#: View/AdminPanel/js/AdminPanel.js:751 View/AdminPanel/js/AdminPanel.js:798
+msgid "You must select a room."
+msgstr "Bir oda seçmelisiniz."
+
+#: View/AdminPanel/js/AdminPanel.js:800
+msgid "You must enter a quantity."
+msgstr "Miktar girmelisiniz."
