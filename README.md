@@ -1,7 +1,7 @@
 # Snippets for Wordpress functions
 Custom Boilerplate for wordpress themes and plugin
 
-Display Current time on Admin Dashboard
+### Display Current time on Admin Dashboard
 ```
 function wporg_add_dashboard_widgets() {
 	wp_add_dashboard_widget(
